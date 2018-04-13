@@ -1,3 +1,5 @@
+//crooked tree
+
 function drawTree(height) {
 	for (var i = 0 ; i <= height ; i++) {
 		var star = "";
@@ -9,4 +11,6 @@ function drawTree(height) {
 };
 
 drawTree(5);
+
+//straight tree
 
