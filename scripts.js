@@ -1,12 +1,13 @@
 //crooked tree
 
 function drawTree(height) {
-	for (var i = 0 ; i <= height ; i++) {
+	for (var i = 1 ; i <= height ; i++) {
 		var star = "";
-		for (var j = 0 ; j < i ; j++) {
+		for (var j = 1 ; j <= i ; j++) {
 		star = star += "*";
 		}
 		console.log(star);
 	}
 };
 
+drawTree(5);
